@@ -30,7 +30,7 @@ const Layout = () => {
       const res = await getAccessTokenWithPopup({
         
         authorizationParams: {
-          audience: "https://realstatenow-ch86.vercel.app",
+          audience: "https://localhost:8000",
           scope: "openid profile email",
         },
         
