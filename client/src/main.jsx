@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="https://dev-sedwqtnvpgco728b.us.auth0.com"
      clientId="bwSxtwvZpJQR9wTZT3UHcuySkxXyyuda"
      authorizationParams={{
-      redirect_uri: "https://realstatenow-psi.vercel.app"
+      redirect_uri: "https://realstatenow-two.vercel.app"
      }}
      audience="https://realstatenow.vercel.app"
      scope="openid profile email"
