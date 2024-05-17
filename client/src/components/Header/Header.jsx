@@ -52,8 +52,7 @@ const Header = () => {
             <a href="mailto:zainkeepscode@gmail.com">Contact</a>
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Property</div>
-            <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
+       
             {/* login button */}
             {!isAuthenticated ? (
               <button className="button" onClick={loginWithPopup}>
