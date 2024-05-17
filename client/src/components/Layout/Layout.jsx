@@ -27,14 +27,7 @@ const Layout = () => {
     
     const getTokenAndRegsiter = async () => {
 
-      const res = await getAccessTokenWithPopup({
-        
-        authorizationParams: {
-          audience: "http://localhost:8000",
-          scope: "openid profile email",
-        },
-        
-      });
+     const res = await getAccessTokenSilently();
       localStorage.setItem("access_token", res);
       setUserDetails((prev) => ({ ...prev, token: res }));
       mutate(res)
