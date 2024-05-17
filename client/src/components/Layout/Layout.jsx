@@ -15,7 +15,7 @@ const Layout = () => {
   useBookings()
 
 
-  const { isAuthenticated, user, getAccessTokenWithPopup} = useAuth0();
+  const { isAuthenticated, user, getAccessTokenSilently} = useAuth0();
   const { setUserDetails } = useContext(UserDetailContext);
 
   const { mutate } = useMutation({
