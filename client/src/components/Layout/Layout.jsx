@@ -27,7 +27,7 @@ const Layout = () => {
     
     const getTokenAndRegsiter = async () => {
 
-     const res = await getAccessTokenSilently();
+        const res = await getAccessTokenSilently();
       localStorage.setItem("access_token", res);
       setUserDetails((prev) => ({ ...prev, token: res }));
       mutate(res)
