@@ -167,6 +167,8 @@ export const getAllBookings = async (email, token) => {
 }
 
 
+
+
 export const createResidency = async (data, token) => {
   console.log(data)
     console.log(token)
@@ -185,5 +187,5 @@ export const createResidency = async (data, token) => {
   {
     throw error
   }
-    
 }
+
