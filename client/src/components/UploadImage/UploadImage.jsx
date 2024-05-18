@@ -38,7 +38,7 @@ const UploadImage = ({
           onClick={() => widgetRef.current?.open()}
         >
           <AiOutlineCloudUpload size={50} color="grey" />
-          <span>Upload Image</span>
+          <span>Descargar imagen</span>
         </div>
       ) : (
         <div
