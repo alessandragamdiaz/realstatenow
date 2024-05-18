@@ -18,14 +18,14 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+             La mejor opcion <br />
+             En agencia 
+              <br />Imobiliaria
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Encuentra propiedades en venta y alquiler con opcion de Airbnb</span>
+            <span>Olvidate de las dificultades a la hora de encontrar un espacio para vivir</span>
           </div>
 
           <SearchBar/>
@@ -35,21 +35,21 @@ const Hero = () => {
               <span>
                 <CountUp start={8800} end={9000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Premium Product</span>
+              <span className="secondaryText">Mejor opcion</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
                 <CountUp start={1950} end={2000} duration={4} /> <span>+</span>
               </span>
-              <span className="secondaryText">Happy Customer</span>
+              <span className="secondaryText">Clientes FElices</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
                 <CountUp end={28} /> <span>+</span>
               </span>
-              <span className="secondaryText">Awards Winning</span>
+              <span className="secondaryText">Credenciales</span>
             </div>
           </div>
         </div>
