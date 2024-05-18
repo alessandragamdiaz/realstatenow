@@ -8,19 +8,22 @@ const Footer = () => {
         <div className="flexColStart f-left">
           <img src="./logo2.png" alt="" width={120} />
           <span className="secondaryText">
-            Our vision is to make all people <br />
-            the best place to live for them.
+            Nuestra Vision es encontrar La mejor opcion  de compra o venta. <br />
+            Para que usted quede satifecho con una decision  <br />
+            tan importante en su vida!
+     
           </span>
         </div>
 
         <div className="flexColStart f-right">
-          <span className="primaryText">Information</span>
-          <span className="secondaryText">145 New York, FL 5467, USA</span>
+          <span className="primaryText">Informacion</span>
+          <span className="secondaryText">Av.rivadavia 2775</span>
           <div className="flexCenter f-menu">
-            <span>Property</span>
-            <span>Services</span>
-            <span>Product</span>
-            <span>About Us</span>
+            <span>
+Propiedad</span>
+            <span>Servicios</span>
+            <span>Productos</span>
+            <span>Acerca de nosotros</span>
           </div>
         </div>
       </div>
