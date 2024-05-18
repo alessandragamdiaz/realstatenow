@@ -39,10 +39,10 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Whatsapp</span>
-                    <span className="secondaryText">Leonila diaz messenger</span>
+                    <span className="secondaryText">1160976728</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chatear ahora</div>
+                <div className="flexCenter button"><a href='https://api.whatsapp.com/send?phone=+447378553493'  target='_blank' >Chatear</a>a</div>
               </div>
             </div>
 
@@ -54,11 +54,11 @@ const Contact = () => {
                     <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Video Llamada</span>
-                    <span className="secondaryText">1160976728</span>
+                    <span className="primaryText">Facebook</span>
+                    <span className="secondaryText">Diaz Rojaas</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Videollamada</div>
+                <div className="flexCenter button"><a href='https://m.me/ale.gamdiaz' target='_blank'>Enviar Mensaje</a></div>
               </div>
 
               <div className="flexColCenter mode">
@@ -68,10 +68,10 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Email</span>
-                    <span className="secondaryText">carmenrojas70@hotmail.com</span>
+                    <span className="secondaryText">Carmenrojas70@hotmail.com</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Enviar email</div>
+                <div className="flexCenter button"><a href='mailto:carmenrojas70@hotmail.com' target='_blank'>Enviar email</a></div>
               </div>
             </div>
           </div>
